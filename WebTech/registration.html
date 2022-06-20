@@ -1,0 +1,40 @@
+<!doctype html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <form action="regcheck.php" method="post" enctype="">
+        <fieldset>
+            <legend><b>Registration</b></legend>
+            <table>
+                <tr>
+                    <td>ID:</td>
+                    <td><input type="text" name="id" value=""></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="pass" value=""></td>
+                </tr>
+                <tr>
+                    <td>Conifrm Password:</td>
+                    <td><input type="password" name="cp" value=""></td>
+                </tr>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" value=""></td>
+                </tr>
+                <tr>
+                    <td>User type:</td>
+                    <td><input type="radio" name="use" value="admin"> Admin
+                        <input type="radio" name="use" value="user"> User
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" name="Sign Up" value="Submit"></td>
+                    <td><a href="sign.php">Sign in</a></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
